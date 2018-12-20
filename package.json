@@ -1,11 +1,10 @@
 {
-  "name": "tr-customer-ui",
+  "name": "webpack-modular-config",
   "version": "0.0.1",
-  "description": "Customer Interface for Travesys system",
+  "description": "webpack modular config sample",
   "main": "index.js",
   "scripts": {
     "start-dev": "cross-env NODE_ENV=development webpack-dev-server --compress",
-    "start-prod": "cross-env NODE_ENV=production forever index 999999999",
     "build": "cross-env NODE_ENV=production webpack",
     "format": "prettier --write --fix 'packages/**/*.js'",
     "test": "jest --watchAll --coverage",
